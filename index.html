@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <div class="challenge-panel">
+        <div class="input-group">
+            <label for="time-input">TIME (MINS):</label>
+            <input type="number" id="time-input" min="1" max="60" value="2">
+        </div>
+        <div class="input-group">
+            <label for="mine-input">MINES:</label>
+            <input type="number" id="mine-input" min="1" max="100" value="15">
+        </div>
+        <button id="go-btn">GO!</button>
+    </div>
+
+    <div class="minesweeper-window">
+        
+        <div class="hud">
+            <div id="mine-count" class="counter">0015</div>
+            
+            <button id="reset-btn">🙂</button>
+            
+            <div id="timer" class="counter">0000</div>
+        </div>
+
+        <div id="board">
+            </div>
+
+    </div>
+
+    <div id="status">
+        <p>Left-click to reveal • Right-click to flag</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
