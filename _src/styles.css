@@ -3,12 +3,12 @@
    ========================================= */
 @font-face {
     font-family: 'Digital14';
-    src: url('../fonts/DSEG14ClassicMini-Bold.woff2') format('woff2');
+    src: url('/fonts/DSEG14ClassicMini-Bold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Win95';
-    src: url('../fonts/w95fa.woff2') format('woff2');
+    src: url('/fonts/w95fa.woff2') format('woff2');
 }
 
 /* =========================================
