@@ -10,8 +10,8 @@ let engine, runner;
 
 const ROWS = 15;
 const COLS = 10;
-const SOUND_PATH = '../sounds/keyboard/keypress-';
-const TICK_SOUND_PATH = '../sounds/S1_CD.wav';
+const SOUND_PATH = '/sounds/keyboard/keypress-';
+const TICK_SOUND_PATH = '/sounds/S1_CD.wav';
 
 let board = [];
 let gameOver = false;
